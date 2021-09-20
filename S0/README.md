@@ -1,4 +1,4 @@
-**What are Channels and Kernels (according to EVA)?**
+# What are Channels and Kernels (according to EVA)?
 
 **Channels** are containers of information or features. Any sensible (sensible can be relative from problem to problem) concepts grouped together can be considered as 1 channel. A data point can be a formation of several channels. For example, an image can be considered as a data point that is formed using 3 channels, which are the Red, Green, and Blue Image channels. The same image can be conceptually broken down into a different set of channels for example one that contains all the vertical lines, and another channel that contains all the horizontal lines, and more channels constituting other angled lines.
 
@@ -14,7 +14,7 @@ A 3X3 vertical edge detection kernel --
 
 ----------
 
-**Why should we (nearly) always use 3x3 kernels?**
+# Why should we (nearly) always use 3x3 kernels?
 
 **Can replace kernels of any other size --** 3x3 kernels can be used to create kernels of any other size. For example, in order to create a 2x2 kernel, we can just pad out the first row and column of a 3x3. A 5X5 kernel can be formed by combining two 3x3 kernels.
 
@@ -28,7 +28,7 @@ A 3X3 vertical edge detection kernel --
 
 ----------
 
-**How many times do we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199?**
+# How many times do we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199?
 
 We will have to perform the 3X3 Convolution operation 99 times for 199X199 to reach 1X1
 
@@ -76,7 +76,7 @@ We will have to perform the 3X3 Convolution operation 99 times for 199X199 to re
 
 ----------
 
-**How are kernels initialised?**
+# How are kernels initialised?
 
 Kernels are initialised as random small numbers typically with a mean 0 and a standard deviation of 1. Depending on the other settings of the learning algorithm the mean and standard deviation can change. Since we are expecting to have several kernels in our learning algorithms and we ideally want all of them to learn to extract different features, it won’t be a good idea to initialise all of them with the same number. Also since we are using back-propagation, having very large or small initialised can lead to gradient explosion or vanishing.
 
@@ -84,6 +84,6 @@ A point worth noting is that how kernel initialisation is done is no more really
 
 ----------
 
-**What happens during the training of a DNN?**
+# What happens during the training of a DNN?
 
 In the beginning, a DNN consists of several layers, each of which consists of several kernels (CNN) / neurons initialized randomly (this is also called the parameters of the network or the weights of the network). The DNN if used for classification would have a final layer that is the same size as the number of classes. With a random initialization, the output from the final layer for a given input would also be random and thus not valid. During the training process, the amount by which the output is incorrect is measured (error) using a loss function. Further using an algorithm called backpropagation each of those individual neurons are updated to produce more correct output. The end of this process would be when all the neurons in the network are set such that the output available on the final layer for most of the input data has reached some acceptance criterion (accuracy, recall, precision; on some test set).
