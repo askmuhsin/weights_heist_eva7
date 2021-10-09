@@ -1,6 +1,6 @@
 
 ## Setup wandb.ai for nb runs
-If you prefer a sample nb, try this 👉 [<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/askmuhsin/weights_heist_eva7/blob/main/infra/wandb_setup.ipyn)
+If you prefer a sample nb, try this 👉 [<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://github.com/askmuhsin/weights_heist_eva7/blob/main/infra/wandb_setup.ipynb)
 
 ---
 
