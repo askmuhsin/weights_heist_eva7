@@ -80,12 +80,14 @@ the 1X20 tensor is then sent through a few Fully connected layers to finally get
 for training and testing loss we use calculate two losses,     
 1. the pred of `img` vs `img target`, and       
 2. the pred of `rand num + img target` vs  `sum target`.      
-the overall loss on train set at 0.0678, and on test set was at 0.0009. (at EPOCH 9]    
+the overall loss on train set at 0.02370, and on test set was at 0.0007. (at EPOCH 9)    
         
 for accuracy on test set, the calculation was done seperately on each task.       
-for image classification task our accuracy was 99%, and for summer task it was 98%.       
+for image classification task our accuracy was 99%, and for summer task it was 99%. (at EPOCH 9)        
         
 Training was done on GPU, and took about 30sec per epoch, with a batch size of 128.        
+![image](https://user-images.githubusercontent.com/8600096/137781919-460ef008-1bb5-4481-b0a1-eccdf9c984c3.png)
+
 
 ------
 ## loss fn
