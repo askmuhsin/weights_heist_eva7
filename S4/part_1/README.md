@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![Neural network](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/NeuralNetwork.jpg)
+![Neural network](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S4/part_1/images/NeuralNetwork.jpg)
 
 
 The Neural network has two inputs i1 and i2 and it contains two layers h and o. 
@@ -16,10 +16,10 @@ The output layer neurons are also gets activated by sigmoid function and these a
 The activated neurnns producess output e1 and e2 and finally give the output e_total which is sum of e1 and e2.
 
 ## Learning rate chart
-![Learning Rate chart for different learning rates](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/Learning_Rate.png)
+![Learning Rate chart for different learning rates](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S4/part_1/images/Learning_Rate.png)
 
 ## Excel Sheet experiment
-![Neural Network excel sheet](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/NeuralNetwork.xlsx)
+![Neural Network excel sheet](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S4/part_1/NeuralNetwork.xlsx)
 
 ## Calculations
 ### Forward Propagation
@@ -73,5 +73,5 @@ New_weight = Previous_weight - (Learning_rate * Derivative of Previous_weight)
 
 #### Excel sheet screen shots
 
-![csv_screenshot_1](https://github.com/eva-6-3/Session_4_assignments/blob/main/Part_1/resources/csv_screenshot_1.png)
-![csv_screenshot_lr](https://github.com/eva-6-3/Session_4_assignments/blob/main/Part_1/resources/csv_screenshot_lr.png)
+![csv_screenshot_1](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S4/part_1/images/csv_screenshot_1.png)
+![csv_screenshot_lr](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S4/part_1/images/csv_screenshot_lr.png)
