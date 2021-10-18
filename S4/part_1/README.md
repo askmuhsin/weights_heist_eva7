@@ -19,7 +19,7 @@ The activated neurnns producess output e1 and e2 and finally give the output e_t
 ![Learning Rate chart for different learning rates](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S4/part_1/images/Learning_Rate.png)
 
 ## Excel Sheet experiment
-![Neural Network excel sheet](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S4/part_1/NeuralNetwork.xlsx)
+[Neural Network excel sheet](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S4/part_1/NeuralNetwork.xlsx)
 
 ## Calculations
 ### Forward Propagation
