@@ -1,3 +1,4 @@
+# Iteration 0 --> [notebook link](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S5/nbs/iteration_0.ipynb)
 ## Target
 - Iteration #0
 - get the code setup right.
