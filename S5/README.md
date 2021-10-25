@@ -51,6 +51,30 @@
 
 
 ----
+# Iteration 1 [IMAGE AUGMENTATION] --> [notebook link](https://github.com/askmuhsin/weights_heist_eva7/blob/main/S5/nbs/iteration_2.ipynb)
+
+## Target
+- Iteration #2
+- add image augmentations.
+  ```python
+    transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1),
+    transforms.RandomRotation((-8., 8.)),
+    transforms.GaussianBlur(kernel_size=(3, 9), sigma=(0.1, 5.)),
+    transforms.RandomPerspective(distortion_scale=0.5, p=0.2),
+    transforms.RandomAffine(degrees=8., translate=(0.1, 0.3), scale=(0.5, 0.75)),
+    ```
+
+## Result
+  - Parameters - 7,936
+  - max_test_accuracy 		- 86.94	[EPOCH -- 15]
+  - max_train_accuracy 		- 91.63	[EPOCH -- 15]
+  - test_accuracy @ epoch 15 	- 86.94
+  - train_accuracy @ epoch 15 	- 91.63
+
+## Analysis
+- saw a dip in performance. but both the the train and test accuracies has decreased.
+- thinking the augmentation strategy was too strong. will reduce in on the next iteration to just rotation, gaussianblur, randomaffince, and colorjitter.
+- while also reducing the parameters of rotation degree, translate, and scale values.
 
 
 
